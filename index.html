@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap-reboot.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="./css/main.css"/>
     <script src="./js/main.js"></script>
 </head>
 <body>
 <h2>Hangman</h2>
 <div>
-    <span id="word-status"></span>
-    <span id="letters-guessed"></span>
+    <span id="guess-progress"></span>
+</div>
+<div>
+    Guessed Letters:
+    <span id="guessed-letters"></span>
 </div>
 <div>
     <span id="guess-count">0</span> Guesses
-    <span id="wins-count">0</span> Wins
 </div>
 </body>
 </html>

@@ -2,10 +2,11 @@ h2 {
     border-bottom: 1px solid #cccccc;
 }
 
-#word-status {
+#guess-progress {
     letter-spacing: 1em;
+    font-size: 1.5em;
 }
 
-#letters-guessed {
-    letter-spacing: 1em;
+#guessed-letters {
+    letter-spacing: 0.25em;
 }
