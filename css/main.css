@@ -1,0 +1,11 @@
+h2 {
+    border-bottom: 1px solid #cccccc;
+}
+
+#word-status {
+    letter-spacing: 1em;
+}
+
+#letters-guessed {
+    letter-spacing: 1em;
+}
